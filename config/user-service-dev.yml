@@ -1,1 +1,4 @@
 foo: foo version ccc
+feign:
+  hystrix:
+    enabled: true

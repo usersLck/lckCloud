@@ -1,13 +1,4 @@
-foo: foo goods ccc
-feign:
-  hystrix:
-    enabled: true
-spring:
-  datasource:
-    driver-class-name: com.mysql.jdbc.Driver
-    durid:
-      initialsize: 2
-
+foo: foo user-mybatis
 #mybatis
 mybatis:
   type-aliases-package: com.lanou.model

@@ -1,4 +1,8 @@
-foo: foo order ccc
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    durid:
+      initialsize: 2
 feign:
   hystrix:
     enabled: true

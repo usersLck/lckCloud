@@ -1,0 +1,15 @@
+foo: foo zuul ccc
+feign:
+  hystrix:
+    enabled: true
+zuul:
+  routes:
+    userapi:
+      path: /user/**
+      serviceId: user-service
+    goodsapi:
+      path: /goods/**
+      serviceId: goods-service
+    ordersapi:
+      path: /orders/**
+      serviceId: order-service

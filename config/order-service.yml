@@ -1,0 +1,4 @@
+foo: foo order ccc
+feign:
+  hystrix:
+    enabled: true
